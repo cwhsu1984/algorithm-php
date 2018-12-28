@@ -1,0 +1,24 @@
+{
+    "name": "cwhsu/algorithm-php",
+    "description": "algorithm practice",
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "authors": [
+        {
+            "name": "cwhsu",
+            "email": "cwhsu1984@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Algorithm\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
